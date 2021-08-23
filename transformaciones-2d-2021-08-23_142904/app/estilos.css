@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	background: #ddd;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.caja{
+	margin: 150px 15px;
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	color: #fff;
+	font-siza: 40px;
+	text-align: center;
+	line-height: 150px;
+	transition: all 3s;
+}
+
+.caja:nth-child(1):hover {
+	background: purple;
+	transform: translate(50px,50px);
+}
+
+.caja:nth-child(2):hover {
+  background: purple;
+	transform: rotate(2.5turn);
+
+}
+
+.caja:nth-child(3):hover {
+  background: purple;
+	transform: scaleX(2);
+
+}
+
+.caja:nth-child(4):hover {
+  background: purple;
+	transform: skewX(20deg);
+
+}
